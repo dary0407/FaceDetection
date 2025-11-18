@@ -116,15 +116,15 @@ Must be 3.10
 ## 5.3 Create a virtual environment
 python -m venv emo
 
-##5.4 Activate the environment
+## 5.4 Activate the environment
 emo\Scripts\Activate.ps1
-##5.5 Install dependencies
+## 5.5 Install dependencies
 pip install -r requirements.txt
-##5.6 Add Your GROQ API Key
+## 5.6 Add Your GROQ API Key
 Create a .env and add this line GROQ_API_KEY=your_key_here
-##5.7 Ensure the Model File Exists
+## 5.7 Ensure the Model File Exists
 The file face_landmarker.task must be in the project.
-##5.9 Run the application
+## 5.9 Run the application
 python main.py
 
 # AUTHOR
